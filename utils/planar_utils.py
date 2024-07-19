@@ -34,6 +34,19 @@ def sigmoid(x):
     s = 1/(1+np.exp(-x))
     return s
 
+def tanh(x):
+    """
+    Compute the tanh of x
+
+    Arguments:
+    x -- A scalar or numpy array of any size.
+
+    Return:
+    s -- tanh(x)
+    """
+    return np.tanh(x)
+
+
 def load_planar_dataset(m=400,D=2):
     np.random.seed(1)
 #    m = 400 # number of examples

@@ -5,3 +5,8 @@ Implementing shallow &amp; deep neural net from scratch
 	- Z=W.X+b 
 	- sigmoid(Z)
 	- Implemented back propagation to update W, b
+
+2. Shallow Network with 1 Hidden Layer:
+	-  Hidden Layer with tanh activation.
+	-  Output layer with sigmoid activation.
+	-  There is no Limit on the no.of neurons in the Hidden Layer.

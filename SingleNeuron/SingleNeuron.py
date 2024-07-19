@@ -82,7 +82,7 @@ class SingleNeuron:
         import pandas as pd
         from sklearn.preprocessing import MinMaxScaler
         from sklearn.model_selection import train_test_split
-        data = pd.read_csv('cancer.csv')
+        data = pd.read_csv('../utils/cancer.csv')
         y = data['Diagnosis']
         x = data.drop('Diagnosis',axis=1)
         scaler = MinMaxScaler()
