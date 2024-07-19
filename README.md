@@ -10,3 +10,8 @@ Implementing shallow &amp; deep neural net from scratch
 	-  Hidden Layer with tanh activation.
 	-  Output layer with sigmoid activation.
 	-  There is no Limit on the no.of neurons in the Hidden Layer.
+
+Ref:
+   - [Ai notes](https://www.deeplearning.ai/ai-notes/index.html)
+
+   - [NN Zero to Hero by Andrej karpathy](https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&feature=shared)
