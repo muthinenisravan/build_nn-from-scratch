@@ -125,7 +125,7 @@ class ShallowNN:
         import pandas as pd
         from sklearn.preprocessing import MinMaxScaler
         from sklearn.model_selection import train_test_split
-        data = pd.read_csv('../utils/cancer.csv')
+        data = pd.read_csv('../utils/datasets/cancer.csv')
         Y = y = data['Diagnosis']
         X = x = data.drop('Diagnosis',axis=1)
         scaler = MinMaxScaler()

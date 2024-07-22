@@ -11,6 +11,12 @@ Implementing shallow &amp; deep neural net from scratch
 	-  Output layer with sigmoid activation.
 	-  There is no Limit on the no.of neurons in the Hidden Layer.
 
+3. Deep Neural Network with user defined L-layers and activations. 
+	- L hidden layers
+	- user can inpute L & activations required.
+	- There is no limit on the No.of Layers
+	- there is no limit on the neurons in the Hidden layer
+
 Ref:
    - [Ai notes](https://www.deeplearning.ai/ai-notes/index.html)
 
