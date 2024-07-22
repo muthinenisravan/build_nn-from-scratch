@@ -17,6 +17,11 @@ Implementing shallow &amp; deep neural net from scratch
 	- There is no limit on the No.of Layers
 	- there is no limit on the neurons in the Hidden layer
 
+4. DNN package, 
+	- dnn L-layered lib package is created
+	- You can quickly create L-layered DNN app by importing mydnn.dnn 
+	
+
 Ref:
    - [Ai notes](https://www.deeplearning.ai/ai-notes/index.html)
 
