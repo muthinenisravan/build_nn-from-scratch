@@ -1,6 +1,6 @@
 #!/usr/bin/env py thon
 # coding: utf-8
-from mydnn.libdnn import dnn
+from mydnn import dnn
 import numpy as np
 def load_datas():
     import h5py

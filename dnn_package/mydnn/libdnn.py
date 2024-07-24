@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import numpy as np
-from mydnn.dnn_utils import sigmoid, relu,sigmoid_backward, relu_backward, compute_cost
+from .dnn_utils import sigmoid, relu,sigmoid_backward, relu_backward, compute_cost
 from copy import deepcopy
 np.random.seed(1)
 

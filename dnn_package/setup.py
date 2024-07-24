@@ -19,7 +19,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="libdnn",
-    version="1.1.0",
+    version="1.2.0",
     author="Sravan Kumar Muthineni",
     author_email="muthinenisravan@gmail.com",
     description="A basic custom NN with L-hidden layers & activations",
