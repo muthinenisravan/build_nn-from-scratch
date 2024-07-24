@@ -4,11 +4,11 @@ from mydnn import dnn
 import numpy as np
 def load_datas():
     import h5py
-    train_dataset = h5py.File('/home/sravanm/DS_ML/build_nn-from-scratch/utils/datasets/train_catvnoncat.h5', "r")
+    train_dataset = h5py.File('datasets/train_catvnoncat.h5', "r")
     train_set_x_orig = np.array(train_dataset["train_set_x"][:]) # your train set features
     train_set_y_orig = np.array(train_dataset["train_set_y"][:]) # your train set labels
 
-    test_dataset = h5py.File('/home/sravanm/DS_ML/build_nn-from-scratch/utils/datasets/test_catvnoncat.h5', "r")
+    test_dataset = h5py.File('datasets/test_catvnoncat.h5', "r")
     test_set_x_orig = np.array(test_dataset["test_set_x"][:]) # your test set features
     test_set_y_orig = np.array(test_dataset["test_set_y"][:]) # your test set labels
 
@@ -33,6 +33,6 @@ layer_dims = [train_x.shape[0], 20, 7, 5, 1]
 activations = ['linear', 'relu', 'relu', 'relu', 'sigmoid']
 
 model = dnn(layer_dims, activations)
-model.fit(train_x, train_y)
+model.fit(train_x, train_y, True)
 A = model.predict(train_x)
 model.scores(train_y[0], A[0])
